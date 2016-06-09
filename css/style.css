@@ -1,0 +1,45 @@
+/* CSS contents 
+________________________________
+
+- General content
+- Typography
+- Header and navigation
+- Images and media
+- Footer
+- Media queries
+______________________________*/
+
+.main {padding-top: 3%;}
+.row {padding: 2% 0;}
+.green {background-color: #7accc8;}
+
+
+/* General content 
+_____________________________*/
+
+
+
+/* Typography
+_____________________________*/
+
+
+/* Header and navigation
+_____________________________*/
+
+header.main_nav{
+	padding: 1% 0;
+	display: block;
+}
+
+/* Images and media
+_____________________________*/
+
+
+/* Footer
+_____________________________*/
+
+
+/* Media queries
+_____________________________*/
+
+
