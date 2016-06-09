@@ -104,3 +104,13 @@ p.copyright{
 _____________________________*/
 
 
+/* Larger than mobile */
+
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top: 15%;}
+	.portfolio img{margin-bottom: 10%;}
+	.img.avatar {margin-top: 15%;}
+	 p.bio{color: #3f7f7c;}
+	 ul.social li a {font-size: .75em;}
+}
