@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+
+
     <!-- Favicon -->
      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+        <!-- Magnific popup plugin -->
+    <link rel="stylesheet" href="css/popup.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
      <!-- Fonts  -->
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
@@ -40,37 +47,37 @@
             <div class="container main">
                 <div class="row">
                     <div class="four columns portfolio">
-                        <img src="images/mountainslake.jpg">
+                    <a class="image-link" href="images/mountainslake.jpg"><img src="images/mountainslake.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                     <img src="images/waterfall.jpg">
+                      <a class="image-link" href="images/waterfall.jpg"><img src="images/waterfall.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                     <img src="images/waterfallfield.jpg">
+                     <a class="image-link" href="images/waterfallfield.jpg"><img src="images/waterfallfield.jpg"></a>
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="four columns portfolio">
-                        <img src="images/skyfullofstars.jpg">
+                        <a class="image-link" href="images/skyfullofstars.jpg"><img src="images/skyfullofstars.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                     <img src="images/greenfieldhouse.jpg">
+                     <a class="image-link" href="images/greenfieldhouse.jpg"><img src="images/greenfieldhouse.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                        <img src="images/archipelago.jpg">
+                        <a class="image-link" href="images/archipelago.jpg"><img src="images/archipelago.jpg"></a>
                     </div>
                 </div> 
                 
                 <div class="row" style="margin-bottom:10%;">
                     <div class="four columns portfolio">
-                    <img src="images/frozenlake.jpg">
+                   <a class="image-link" href="images/frozenlake.jpg"> <img src="images/frozenlake.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                     <img src="images/sunrisehorses.jpg">
+                     <a class="image-link" href="images/sunrisehorses.jpg"><img src="images/sunrisehorses.jpg"></a>
                     </div>
                      <div class="four columns portfolio">
-                     <img src="images/lighthousesea.jpg">
+                     <a class="image-link" href="images/lighthousesea.jpg"><img src="images/lighthousesea.jpg"></a>
                     </div>
                 </div>     
             </div>
@@ -106,7 +113,13 @@
         </div>         
     </div>
 </footer>    
-    
+    <!-- magnific popup plugin -->
+    <script src="js/popup.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+        });
+    </script>
     </body>  
 </html>
     <!--End Of Document-->
