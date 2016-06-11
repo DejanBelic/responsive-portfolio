@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-
     <!-- Favicon -->
      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
-        <!-- Magnific popup plugin -->
+        <!-- Magnific Popup Plugin -->
     <link rel="stylesheet" href="css/popup.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -32,8 +30,8 @@
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-    <body>
+    
+  <body>
     
     <header class="main_nav green">
         <div class="container ">
@@ -81,9 +79,9 @@
                     </div>
                 </div>     
             </div>
-        
+            
         <!-- Container Main -->
-        
+
  <div class="row green">
     <div class="container">
        <div class="four columns">
@@ -94,7 +92,7 @@
         <p class="bio">Iceland, a Nordic island nation, is defined by its dramatic volcanic landscape of geysers, hot springs, waterfalls, glaciers and black-sand beaches. The capital, Reykjavik, home to the majority of the population, runs on geothermal power and offers a renowned nightlife scene as well as Viking history museums. The glaciers in Vatnajökull and Snæfellsnes national parks are popular for ice climbing, hiking and snowmobiling. </p>
        </div>
     </div>
-</div>  <!-- End of row green -->
+</div>  <!-- End Of Row Green -->
    
    <footer> 
     <div class="container">
@@ -113,25 +111,20 @@
         </div>         
     </div>
 </footer>    
-    <!-- magnific popup plugin -->
+    <!-- Magnific Popup Plugin -->
     <script src="js/popup.js"></script>
     <script type="text/javascript">
         $('.image-link').magnificPopup({
   type: 'image',
-  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+  mainClass: 'mfp-with-zoom', // This Class Is For Animation Below
 
   zoom: {
-    enabled: true, // By default it's false, so don't forget to enable it
+    enabled: true, 
 
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function
+    duration: 300, // Duration Of The Effect
+    easing: 'ease-in-out', 
 
-    // The "opener" function should return the element from which popup will be zoomed in
-    // and to which popup will be scaled down
-    // By defailt it looks for an image tag:
     opener: function(openerElement) {
-      // openerElement is the element on which popup was initialized, in this case its <a> tag
-      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
       return openerElement.is('img') ? openerElement : openerElement.find('img');
     }
   }
